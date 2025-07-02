@@ -1,0 +1,3 @@
+### Game files to ignore
+*.json
+__builtin__.py
