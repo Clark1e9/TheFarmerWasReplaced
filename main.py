@@ -1,3 +1,12 @@
+#Purpose: Control logic for the game
+
+# Known isses #
+#- *very manual*
+
+# To-do #
+#- Create automatic item level adjustment
+#- Automatically work towards unlocks
+
 from grass import grass
 from tree import trees
 from carrot import carrots
