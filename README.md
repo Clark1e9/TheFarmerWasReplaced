@@ -1,4 +1,4 @@
-# The Farmer was Replaed
+# The Farmer was Replaced
 
 A public repo for my code created in game. Try not to judge too hard, I'm not a professional 
 
