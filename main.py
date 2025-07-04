@@ -10,11 +10,11 @@
 from grass import grass
 from tree import trees
 from carrot import carrots
-#from Pumpkins import pumpkins_basic
 from Pumpkins import pumpkins_adv
 
 
 from movement import move_to_start
+from inputs import input_quantity
 
 move_to_start()
 
@@ -29,7 +29,7 @@ while True:
 def brain(target_num):
 	return null
 
-
+#Collect array of current item counts at time of call
 def get_current_num():
 
 	#Initialise array
