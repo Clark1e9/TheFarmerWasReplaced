@@ -25,6 +25,25 @@ while True:
 	#pumpkins_basic()
 	pumpkins_adv()
 
+#Will return True unless desired quantity is reached for entire list
+def reach_desired_quantity():
+
+	#Simplify arrays
+	desired = input_quantity()
+	current = get_current_num()
+
+	#For each item in the array
+	for item in input_quantity():
+
+		if desired[item] <= current[item]:
+			#temp
+			quick_print("You need more of item",item,"!")
+			
+		elif desired[item] > current[item]:
+			#temp
+			quick_print("Item",item, "quantity satisfied!")
+			return False
+
 
 def brain(target_num):
 	return null
