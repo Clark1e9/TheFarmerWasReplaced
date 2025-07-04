@@ -24,3 +24,23 @@ while True:
 	#carrots()
 	#pumpkins_basic()
 	pumpkins_adv()
+
+
+def brain(target_num):
+	return null
+
+
+def get_current_num():
+
+	#Initialise array
+	current = []
+
+	#Add each item to new array index
+	current[0] = num_items(Items.Hay)
+	current[1] = num_items(Items.Wood)
+	current[2] = num_items(Items.Carrot)
+	current[3] = num_items(Items.Pumpkin)
+	#current[4] = num_items() #Future expansion
+	
+	#Return array
+	return current
